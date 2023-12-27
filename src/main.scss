@@ -1,0 +1,369 @@
+* {
+  box-sizing: border-box;
+  &::before {
+    box-sizing: border-box;
+  }
+  &::after {
+    box-sizing: border-box;
+  }
+}
+body {
+  margin: 0;
+}
+
+/* #Base Botones# */
+.btns {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 130px;
+  width: 100px;
+}
+
+/* #Circulo-Style# */
+.circle-base {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+}
+
+.cirle-form {
+  border-radius: 50%;
+  border: 2px solid #000000;
+}
+
+/* #Imgs Botones# */
+.btns-img-1 {
+  //background-image: url(https://myrot.net/miedo.gif);
+  background-image: url(https://i.imgur.com/pB3W5tN.gif);
+  background-size: 100px 130px;
+}
+.btns-img-2 {
+  //background-image: url(https://myrot.net/asombro.gif);
+  background-image: url(https://i.imgur.com/pP6jVgP.gif);
+  background-size: 100px 130px;
+}
+.btns-img-3 {
+  //background-image: url(https://myrot.net/confusion.gif);
+  background-image: url(https://i.imgur.com/ywpgjPO.gif);
+  background-size: 100px 130px;
+}
+.btns-img-4 {
+  //background-image: url(https://myrot.net/tristeza.gif);
+  background-image: url(https://i.imgur.com/WZp3sLR.gif);
+  background-size: 100px 130px;
+}
+.btns-img-center {
+  //background-image: url(https://myrot.net/hablar.gif);
+  background-image: url(https://i.imgur.com/U9k5xY3.gif);
+  background-size: 100px 130px;
+}
+.btns-img-5 {
+  //background-image: url(https://myrot.net/feliz.gif);
+  background-image: url(https://i.imgur.com/u6X5Uha.gif);
+  background-size: 100px 130px;
+}
+.btns-img-6 {
+  //background-image: url(https://myrot.net/ternura.gif);
+  background-image: url(https://i.imgur.com/CFBXl59.gif);
+  background-size: 100px 130px;
+}
+.btns-img-7 {
+  //background-image: url(https://myrot.net/enfado.gif);
+  background-image: url(https://i.imgur.com/EhJdO4j.gif);
+  background-size: 100px 130px;
+}
+.btns-img-8 {
+  //background-image: url(https://myrot.net/orgullo.gif);
+  background-image: url(https://i.imgur.com/488crFf.gif);
+  background-size: 100px 130px;
+}
+
+/* #Botones# */
+.btn-1 {
+  border-radius: 8px;
+  border: 2px solid #000000;
+  line-height: 1;
+  transition: transform 0.5s;
+
+  line-height: 1;
+  transition: transform 0.5s;
+  &:hover {
+    transform: translateY(-8px);
+    border-radius: 12px;
+    border: 4px solid #000000;
+  }
+  &:active {
+    border-radius: 16px;
+    border: 4px solid #000000;
+  }
+}
+.btn-2 {
+  border-radius: 8px;
+  border: 2px solid #000000;
+  line-height: 1;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-radius: 12px;
+    border: 4px solid #000000;
+  }
+  &:active {
+    border-radius: 16px;
+    border: 4px solid #000000;
+  }
+}
+.btn-3 {
+  border-radius: 8px;
+  border: 2px solid #000000;
+  line-height: 1;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-radius: 12px;
+    border: 4px solid #000000;
+  }
+  &:active {
+    border-radius: 16px;
+    border: 4px solid #000000;
+  }
+}
+.btn-4 {
+  border-radius: 8px;
+  border: 2px solid #000000;
+  line-height: 1;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-radius: 12px;
+    border: 4px solid #000000;
+  }
+  &:active {
+    border-radius: 16px;
+    border: 4px solid #000000;
+  }
+}
+.btn-center {
+  border-radius: 8px;
+  border: 2px solid #000000;
+  line-height: 1;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-radius: 12px;
+    border: 4px solid #0003d1;
+  }
+  &:active {
+    border-radius: 16px;
+    border: 4px solid #000000;
+  }
+}
+.btn-5 {
+  border-radius: 8px;
+  border: 2px solid #000000;
+  line-height: 1;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-radius: 12px;
+    border: 4px solid #db2020;
+  }
+  &:active {
+    border-radius: 16px;
+    border: 4px solid #db2020;
+  }
+}
+.btn-6 {
+  border-radius: 8px;
+  border: 2px solid #000000;
+  line-height: 1;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-radius: 12px;
+    border: 4px solid #db2020;
+  }
+  &:active {
+    border-radius: 16px;
+    border: 4px solid #db2020;
+  }
+}
+.btn-7 {
+  border-radius: 8px;
+  border: 2px solid #000000;
+  line-height: 1;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-radius: 12px;
+    border: 4px solid #db2020;
+  }
+  &:active {
+    border-radius: 16px;
+    border: 4px solid #db2020;
+  }
+}
+.btn-8 {
+  border-radius: 8px;
+  border: 2px solid #000000;
+  line-height: 1;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-radius: 12px;
+    border: 4px solid #db2020;
+  }
+  &:active {
+    border-radius: 16px;
+    border: 4px solid #db2020;
+  }
+}
+
+/* #Textos# */
+h3 {
+  font-family: "Paytone One";
+  color: #ffffff;
+  text-transform: uppercase;
+
+  span {
+    display: block;
+    margin: 11px 0 17px 0;
+    font-size: 50px;
+    line-height: 80px;
+    color: #ffffff;
+    text-shadow: 0 13.36px 8.896px #818181, 0 -2px 1px #818181;
+    letter-spacing: -4px;
+  }
+}
+
+/* #Box Styles# */
+
+.styling {
+  height: 150px;
+  position: relative;
+  z-index: 100;
+  margin-top: -200px;
+  background-color: #46b2fd;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+
+.col-30 {
+  grid-column-end: span 30;
+}
+
+.center-flex {
+  z-index: 50;
+  position: relative;
+  display: -webkit-flex !important;
+  display: flex !important;
+  justify-content: space-around;
+}
+
+/* #AvatarPfP Style# */
+
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  & > div {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+  }
+  header {
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+  }
+}
+
+.modal-close {
+  z-index: 51;
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+/* Demo Styles */
+
+a {
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-window {
+  & > div {
+    border-radius: 1rem;
+  }
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+small {
+  color: lightgray;
+}
+
+.button-pfp {
+  background-color: white;
+  padding: 1em 1.5em;
+  border-radius: 1rem;
+  text-decoration: none;
+  i {
+    padding-right: 0.3em;
+  }
+}
+
+/* #Icon-Micro# */
+.icon-micro-img {
+  //background-image: url(https://myrot.net/microfono.png);
+  background-image: url(https://i.imgur.com/eTK99rE.png);
+  background-size: 64px 64px;
+}
